@@ -4,7 +4,7 @@ import { Provider } from 'react-redux'
 import App from './src/containers/App'
 import configureStore from './src/store/configureStore'
 
-const store = configureStore()
+const store = configureStore();
 
 class Groceries extends Component {
   render() {
@@ -16,4 +16,4 @@ class Groceries extends Component {
   }
 }
 
-AppRegistry.registerComponent('Groceries', () => Groceries)
+AppRegistry.registerComponent('Groceries', () => Groceries);
